@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@100;600&display=swap');
+
+.navbar-nav li a{
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.d-flex{
+  font-family: sans-serif;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav li{
+  margin-right: 30px;
+}
+
