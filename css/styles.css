@@ -28,5 +28,120 @@ nav{
   margin-right: 30px;
 }
 
+/* Site Latest News */
+.site-news h2{
+  font-family: 'Taviraj', serif;
+  font-weight: 700; 
+  font-size: 50px; 
+  color: rgba(0, 0, 0, 0.8); 
+  line-height: 76px; 
+  font-style: normal;
+}
 
-/* Tambahan coding (11-07-2022) */
+/* Site About */
+.site-about h2{
+  font-family: 'Taviraj', serif;
+  font-weight: 700; 
+  font-size: 50px; 
+  line-height: 85px; 
+  font-style: normal; 
+  text-align: center; 
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.site-about .isi-about{
+  font-size: 22px; 
+  margin-top: 3rem; 
+  font-style: normal; 
+  line-height: 198.5%;
+}
+
+/* Site Product */
+.site-product{
+  background-image: url("../images/products.png"); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  padding-top: 15rem; 
+  padding-bottom: 10rem; 
+  color: white;
+}
+
+.site-product h2{
+  font-family: 'Taviraj', serif;
+  font-style: Bold;
+  font-weight: 700; 
+  font-size: 50px; 
+  line-height: 85px; 
+  text-align: center;
+}
+
+.site-product .isi-product{
+  
+  margin-top: 50px; 
+  font-size: 26px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: Mixed;
+}
+
+/* Site Location */
+.site-location{
+  background-color: #43544A;
+  color: white;
+}
+
+.site-location .judul-location{
+  font-family: 'Taviraj', serif;
+  font-weight: Bold;
+  font-size: 50px; 
+  line-height: 85px; 
+}
+
+.site-location .judul-office{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: Bold;
+  Font-size: 24px;
+}
+
+.site-location .isi-office{
+  font-family: 'Work Sans', sans-serif;
+  Font-size: 18px
+}
+
+/* Site Contact */
+.site-contact{
+  text-align: center;
+}
+
+.site-contact h2{
+  font-family: 'Taviraj', serif;
+  font-weight: Bold;
+  Font-size: 32px;
+  color: #373F41;
+}
+
+.site-contact p{
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.3px;
+  Font-size: 16px;
+  vertical-align: Top;
+}
+
+/* Whatsapp icon */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
